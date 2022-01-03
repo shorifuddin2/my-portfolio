@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(102, 142, 216);
+    
+        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+      
+}
+
+h1{
+    text-align: center;
+    color: coral;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: 30px;
+    font-size: 40px;
+   
+}
+.conteiner-1{
+    margin: 20px;
+    margin-top: 20px;
+    
+    
+}
+.hedar{
+    width: 50%;
+    display: inline-block;
+    margin-left: 25px;
+}
+.bton{
+    color: rgb(234, 241, 250);
+    background-color: rgba(224, 11, 125, 0.829);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hedar p{
+    text-align: justify;
+
+}
+.img-1{
+    width: 40%;
+    border-radius: 50%;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.img-2{
+    width: 40%;
+  display: inline-block;
+    border-radius: 50%;
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+}
+.img-3{
+    width: 280px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.hedar-2{
+    display: flex;
+    width: ;
+    margin-left: 30px;
+}
+.boxsite{
+    width: 40%;
+    margin: 20px;
+    background-color: rgb(223, 187, 43);
+    padding: 30px;
+    box-shadow: 10px 10px 40px rgb(117, 86, 86);
+    border-radius: 5px;
+}
+.boxsite p{
+    width: 40%;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+}
