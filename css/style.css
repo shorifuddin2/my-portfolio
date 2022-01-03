@@ -1,7 +1,5 @@
 body{
     background-color: rgb(102, 142, 216);
-    
-        font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
       
 }
 
@@ -14,49 +12,40 @@ h1{
     font-size: 40px;
    
 }
-.conteiner-1{
+.conteiner{
+    display:flex ;
     margin: 20px;
     margin-top: 20px;
-    
-    
 }
-.hedar{
+.hedar-1{
     width: 50%;
-    display: inline-block;
-    margin-left: 25px;
+   margin-top: 50px;
+   margin-left: 5%;
 }
-.bton{
+.hedar-2{
+    width: 50%;
+}
+.hedar-2 img{
+    width: 100%;
+    border-radius: 50%;
+}
+.btn{
     color: rgb(234, 241, 250);
-    background-color: rgba(224, 11, 125, 0.829);
+    background-image: linear-gradient(orange, coral);
+    text-decoration: none;
     padding: 10px;
     border-radius: 10px;
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.hedar p{
+.hedar-1 p{
     text-align: justify;
+    width: 80%;
 
-}
-.img-1{
-    width: 40%;
-    border-radius: 50%;
-    padding: 0px;
-    margin-top: 20px;
-    margin-left: 50px;
-}
-.img-2{
-    width: 40%;
-  display: inline-block;
-    border-radius: 50%;
-    padding: 0px;
-    margin-top: 40px;
-    margin-left: 30px;
-    
 }
 .img-3{
     width: 280px;
     text-align: center;
-    display: inline-block;
     border-radius: 50%;
     padding: 0px;
     margin-top: 40px;
@@ -67,16 +56,18 @@ h1{
     width: ;
     margin-left: 30px;
 }
-.boxsite{
-    width: 40%;
+.hedar-3 {
     margin: 20px;
     background-color: rgb(223, 187, 43);
-    padding: 30px;
+    padding: 2%;
     box-shadow: 10px 10px 40px rgb(117, 86, 86);
     border-radius: 5px;
+    width: 50%;
+   margin-top: 50px;
+   margin-left: 2%;
 }
-.boxsite p{
-    width: 40%;
+.hedar-3  p{
+
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 .footer{
