@@ -14,7 +14,11 @@ h1{
 }
 .conteiner{
     display:flex ;
-    margin-top: 20px;
+    margin-top: 0px;
+}
+.conteiner-1{
+    display:flex ;
+    margin-top: 150px;
 }
 .hedar-1{
     width: 50%;
@@ -47,7 +51,7 @@ h1{
     text-align: center;
     border-radius: 50%;
     padding: 0px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 500px;
 }
 .hedar-2{
